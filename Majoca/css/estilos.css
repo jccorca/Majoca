@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(#F7601D,#b5dda4);
+}
+
+nav{
+    padding: 8px;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 8px;
+    margin-right: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease;
+}
+
+
+nav a:hover{
+    background-color: #549439;
+    border-radius: 15px;
+    color: #fefefe;
+    transform: scale(1.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    
+}
+
+.auth-buttons{
+    padding: 8px;
+    color: #000;
+    font-weight: bold;
+    display:flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.login,.register{
+    background: linear-gradient(#b5dda4, #226b2c);
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+
+
+main{
+    background: linear-gradient(#b5dda4, #226b2c);
+    padding: 20px;
+   
+
+
+}
+
+.nosotros{
+    background: conic-gradient(#F7601D,#b5dda4, #226b2c);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+.texto-nosotros{
+    flex: 1;
+    padding-right: 20px;
+}
+
+.imagen-nosotros{
+    flex: 1;
+    text-align: center;
+}
+
+.imagen-nosotros img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.20s ease;
+}
+.imagen-nosotros img:hover
+{
+    transform: scale(1.02);
+}
+
+.catalogo{
+    background: radial-gradient(#b5dda4, #226b2c);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+.catalogo h2
+{
+    margin-top: 30px;
+}
+.catalogo p
+{
+    text-align: left;
+    font-size: 17px;
+    
+}
+
+
+.catalogo img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.20s ease;
+    margin-top: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+}
+.catalogo img:hover
+{
+    transform: scale(1.02);
+}
+
+
+.suscripciones {
+    background: linear-gradient(#226b2c, #b5dda4, #226b2c);
+    padding: 40px 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.suscripciones p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.planes {
+    width: 100%;
+    margin: 0 auto; 
+    background-color: #ffffff;
+    border-collapse: collapse; 
+    border-radius: 12px;
+    overflow: hidden; 
+}
+
+.planes thead tr {
+    background-color: #226b2c;
+}
+
+.planes th {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.planes td {
+    padding: 18px 20px;
+    font-size: 15px;
+    vertical-align: top;
+    line-height: 1.6; 
+}
+
+
+.planes tbody tr {
+    border-bottom: 1px solid #e5e5e5;
+     transition: background-color 0.2s ease;
+}
+.planes tbody tr:hover {
+    background-color: #b4b4b4; 
+}
+
+
+.planes tbody td:first-child {
+    color: #226b2c; 
+    font-size: 16px;
+}
+
+
+.planes tbody td:last-child {
+    font-weight: bold;
+    color: #226b2c;
+
+}
+
+
+.contacto{
+    background: linear-gradient(#226b2c,#b5dda4, #226b2c);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.contacto p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form .campo{
+    margin-bottom: 15px;
+}
+
+form .campo label{
+    display: block;
+    font-weight: 600;
+}
+
+form .campo input, textarea{
+    width: 90%;
+    padding: 12px;
+    border: 1px solid #226b2c;
+    border-radius: 15px;
+    margin-top: 10px;
+    background-color: #b5dda4;
+    font-size: 15px;
+}
+
+form .campo textarea{
+    resize: vertical;
+    min-height: 120px;
+}
+
+button{
+    background-color: #b5dda4;
+    cursor: pointer;
+    margin-top: 4px;
+    font-weight: bolder;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    background: linear-gradient(#226b2c, #F7601D);
+    padding: 20px;
+    text-align: center;
+    
+}
+
+footer a:hover{
+    background-color: #b5dda4;
+    border-radius: 15px;
+}
+footer div strong{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer_eslogan{
+    font-family: Arial, Helvetica, sans-serif;
+}

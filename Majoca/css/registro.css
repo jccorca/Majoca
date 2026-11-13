@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    background: linear-gradient(135deg, #f5f8f2, #b5dda4);
+    color: #233126;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > img {
+    display: block;
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    margin-bottom: -8px;
+}
+
+h2 {
+    margin: 0;
+    color: #226b2c;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    max-width: 430px;
+    padding: 32px;
+    border: 1px solid rgba(34, 107, 44, 0.12);
+    border-top: 5px solid #f7601d;
+    border-radius: 18px;
+    background-color: #fff;
+    box-shadow: 0 12px 32px rgba(34, 70, 38, 0.14);
+    text-align: left;
+}
+
+form br {
+    display: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #263d2b;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    min-height: 46px;
+    margin: 0 0 20px;
+    padding: 11px 13px;
+    border: 1px solid #cbd9c7;
+    border-radius: 9px;
+    background-color: #fbfdf9;
+    color: #233126;
+    font: inherit;
+}
+
+form input::placeholder {
+    color: #778477;
+}
+
+form input:focus-visible {
+    border-color: #226b2c;
+    outline: 3px solid rgba(34, 107, 44, 0.18);
+}
+
+form button {
+    width: 100%;
+    min-height: 48px;
+    margin-top: 2px;
+    border: 0;
+    border-radius: 9px;
+    background-color: #226b2c;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #185522;
+}
+
+form button:active {
+    transform: translateY(1px);
+}
+
+form button:focus-visible {
+    outline: 3px solid #f7601d;
+    outline-offset: 3px;
+}
+
+.back-button {
+    display: inline-flex;
+    width: 100%;
+    max-width: 430px;
+    min-height: 46px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    border: 1px solid #226b2c;
+    border-radius: 9px;
+    background-color: #fff;
+    color: #226b2c;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.back-button:hover {
+    background-color: #226b2c;
+    color: #fff;
+}
+
+.back-button:focus-visible {
+    outline: 3px solid #f7601d;
+    outline-offset: 3px;
+}
+
+@media (max-width: 480px) {
+    form {
+        padding: 26px 22px;
+    }
+}
